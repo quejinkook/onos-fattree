@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2016 Open Networking Laboratory
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+    <artifactId>onos-apps</artifactId>
+    <groupId>org.onosproject</groupId>
+    <version>1.7.0</version>
+  </parent>
+
+    <artifactId>onos-fattree</artifactId>
+    <packaging>bundle</packaging>
+
+    <description>ONOS Fat-Tree Application</description>
+    <url>http://www.korea.ac.kr</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <onos.version>1.7.0</onos.version>
+        <onos.app.name>net.oiilab.onos-fattree</onos.app.name>
+        <onos.app.title>ONOS Fat-Tree App</onos.app.title>
+        <onos.app.origin>OiiLAB, Korea Univ.</onos.app.origin>
+        <onos.app.category>routing app</onos.app.category>
+        <onos.app.url>http://www.korea.ac.kr</onos.app.url>
+        <onos.app.readme>ONOS Fat-Tree Application</onos.app.readme>
+
+    </properties>
+
+</project>
